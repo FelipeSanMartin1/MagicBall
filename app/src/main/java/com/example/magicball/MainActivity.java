@@ -15,11 +15,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView respuesta;
     private String [] respuestaArray ={"Es cierto", "Definitivamente es así", "Sin duda",
             "Sí definitivamente", "Mejor pregunte a la caracola magica", "Como yo lo veo, sí","Lo más probable",
-            "Perspectiva buena", "Sí", "Cuando mires a las estrellas,sabras la respuesta",
+            "Perspectiva buena", "Sí", "Lo sabras cuando mires a las estrellas",
             "Respuesta confusa, intente de nuevo", "Pregunte de nuevo más tarde",
-            "Mejor no decirte ahora", "La interferencia energetica no me permite predecir", "Concéntrate y pregunta de nuevo",
+            "Mejor no decirte ahora", "No, pero aveces si", "Concéntrate y pregunta de nuevo",
             "No cuentes con eso","Mi respuesta es no", "Mis fuentes dicen que no",
-            "No lo afirmo ni lo niego", "Muy dudoso"}
+            "No lo afirmo ni lo niego", "Muy dudoso"};
 
 
     @Override

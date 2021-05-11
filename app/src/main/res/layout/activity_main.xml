@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
     <TextView
@@ -25,13 +26,16 @@
         android:textSize="24sp"
         android:hint="ESCRIBE TU MENSAJE"
         android:inputType="textShortMessage"/>
+
     <ImageButton
         android:id="@+id/btn"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="334dp"
         android:layout_gravity="center"
         android:layout_margin="40dp"
-        android:src="@drawable/bolacristal"/>
+        android:scaleType="fitCenter"
+        android:src="@drawable/bolacristal" />
+
     <TextView
         android:id="@+id/respuestavista"
         android:layout_width="wrap_content"
