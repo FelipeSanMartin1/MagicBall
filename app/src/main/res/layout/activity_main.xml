@@ -5,48 +5,62 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/fondo"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo">
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/conoce_tu_futuro"
-        android:textColor="#ed7d08"
+        android:layout_margin="40dp"
+        android:text="Conoce El Futuro !!!"
+        android:textColor="#bd44ca"
         android:textSize="30sp"
-        android:textStyle="bold|italic"
-        android:layout_margin="48dp"
-        />
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="387dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:text="\t\t\t\t\t\t\t\t\t\t Solo haz una pregunta
+         \n\t\t\t\t\t\t\t y presiona la bola de cristal"
+        android:textColor="#9494b8"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+
     <EditText
         android:id="@+id/question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="24sp"
-        android:hint="ESCRIBE TU MENSAJE"
-        android:inputType="textShortMessage"/>
+        android:hint="Escribe tu Pregunta"
+        android:inputType="textShortMessage"
+        android:textColor=" #ff9900"
+        android:textColorHint="#3d3d5c"
+        android:textSize="24sp" />
 
     <ImageButton
         android:id="@+id/btn"
         android:layout_width="wrap_content"
-        android:layout_height="334dp"
+        android:layout_height="258dp"
         android:layout_gravity="center"
-        android:layout_margin="40dp"
+        android:layout_margin="20dp"
+        android:background="@null"
         android:scaleType="fitCenter"
         android:src="@drawable/bolacristal" />
 
     <TextView
         android:id="@+id/respuestavista"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="98dp"
         android:layout_gravity="center"
-        android:textSize="26sp"
-        android:textStyle="bold"
-        android:textColor="#ed7d08"
+        android:layout_margin="60dp"
         android:text="..."
-        android:layout_margin="60dp"/>
-
+        android:textColor="#ff3385"
+        android:textSize="26sp"
+        android:textStyle="bold" />
 
 
 </LinearLayout>
